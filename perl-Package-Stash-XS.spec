@@ -2,7 +2,7 @@
 
 Name:		perl-Package-Stash-XS
 Version:	0.26
-Release:	1%{?dist}
+Release:	3%{?dist}
 Summary:	Faster and more correct implementation of the Package::Stash API
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -76,6 +76,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Package::Stash::XS.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.26-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.26-2
+- Mass rebuild 2013-12-27
+
 * Fri Jan  4 2013 Paul Howarth <paul@city-fan.org> - 0.26-1
 - Update to 0.26
   - Internal refactorings to support Package::Anon stashes
